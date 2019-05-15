@@ -1,0 +1,506 @@
+.blue{
+
+        background-color: rgba(4, 0, 255, 0.219);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 600px;
+        margin-top: 9px;
+       
+}
+
+.container{
+    background:url('../assets/images/one.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 600px;
+    width: 100%;
+    
+}
+input[type=button], input[type=submit] {
+    float: right;
+     border: transparent;
+     color:white;
+    background-color: transparent;
+    padding: 12px 32px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height:40px;
+
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid rgb(114, 171, 179);
+  border-right: none;
+  padding: 0px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+  height: 40px;
+ 
+}
+
+.searchButton {
+    position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 505px;
+  top: -43px;
+  background-color: white;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    padding-left: 500px;
+    padding-top:30px;
+}
+.container2{
+     background-color: white;
+     height:600px;
+     width: 100%;
+     
+}
+.row{
+    height:200px;
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.column {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    padding-left:70px;
+    padding-top:20px;
+    
+  }
+  .column2 {
+    float: left;
+    width: 120px;
+    padding: 5px;
+    padding-top: 45px;
+    padding-left:70px;
+  }
+  .column3 {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    padding-top: 25px;
+    padding-left:70px;
+  }
+  .column4 {
+    float: left;
+    width: 110px;
+    padding: 5px;
+    padding-top: 40px;
+    padding-left: 80px;
+  }
+  .column5 {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    padding-top: 35px;
+    padding-left: 80px;
+  }
+  .column6 {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    padding-top: 20px;
+    margin-left: 60px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .ico {
+     height: 50px;
+     width: 50px;
+  }
+.row2{
+    margin-left: 340px;
+}
+.container3{
+    background:url('../assets/images/chair1.jpg'); 
+  background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  height:600px;
+  width: 100%;
+/* Preserve aspet ratio */
+min-width: 100%;
+min-height: 100%;
+}
+.three{
+    height: 20px;
+     width: 20px;
+    
+}
+.container4{
+    
+        background:url('../assets/images/hand.png'); 
+      background-repeat: no-repeat;
+        background-size: cover;
+    
+      height:600px;
+      width: 100%;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    }   
+   .icon{
+       height: 50px;
+       width: 100px;
+       background-size: cover;
+   } 
+   .icon1{
+    height: 50px;
+    width: 200px;
+    background-size: cover;
+
+} 
+   .column7 {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    padding-left:100px;
+    padding-top:20px;
+
+
+  }
+  .column8 {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    padding-left:60px;
+    padding-top:20px;
+    
+  }
+  .star-rating {
+    
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:1.5em;
+    justify-content:space-around;
+    padding:0 .2em;
+    text-align:center;
+    width:5em;
+  }
+  
+  .star-rating input {
+    display:none;
+  }
+  
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+  }
+  
+  .star-rating :checked ~ label {
+    color:#f90;
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:#fc0;
+  }
+  .buttons:hover {
+    background-color: black;
+    color: white;
+  }
+  .container5{
+    background-color: #2E06E5;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 400px;
+    width: 100%;
+    min-width: 100%;
+min-height: 100%;
+}
+.con7{
+    width: 240px;
+    border: transparent;
+    color:black;
+   
+   padding: 12px 32px;
+   cursor: pointer;
+   font-size: 15px;
+}
+.container6{
+   
+    height: 350px;
+    width: 100%;
+    min-width: 100%;
+min-height: 100%;
+}
+.selectpicker{
+    border: gray;
+   
+    background-color: transparent;
+    height: 30px;
+    width:100px;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #070E28;
+  }
+  .dummy_page {
+    height: 400px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 220px;
+    height: 250px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+    @media screen and (max-width: 765px) {
+        .searchTerm        {
+          margin-left: -180px;
+          max-width: 136px;
+          height: 30px;
+
+      }
+      #arrowbtn{
+          position: absolute;
+
+      }
+      .searchButton
+      {position: relative;
+          margin-left: 0px;
+          margin-top: 70px;
+
+      }
+      .navbar
+      {
+        max-width: 100px;
+        float: right;
+        margin-right : 10px;
+      }
+      .H1haiyeh
+      {
+        position: absolute;
+        right: -100px; 
+        width : 150px;
+        left : 200px;
+        top: 660px;
+        font-size: 20px;
+      }
+      #con3{
+          position: relative;
+          right: 100px;
+          margin-top: -20px;
+      }
+      #Bttn-1
+      {
+        position: absolute;
+        right: -100px; 
+        width : 150px;
+        left : 150px;
+        top: 800px;
+        font-size: 20px;
+      }
+      
+      #Bttn-2
+      {
+          
+        position: absolute;
+        right: -100px; 
+        width : 150px;
+        left : 150px;
+        top: 930px;
+        font-size: 20px;
+      }
+      
+      #Bttn-3
+      {
+          
+        position: absolute;
+        right: -100px; 
+        width : 150px;
+        left : 150px;
+        top: 1050px;
+        font-size: 20px;
+      }
+      .logo {
+          margin-left : -60px;
+          width: 50px;
+      }
+      .container3  h1{
+          font-size : 20px;
+      }
+      .container h5{
+          font-size : 8px;
+      }
+      
+      .container h4{
+        font-size : 12px;
+        }
+        .join-button {
+            position : absolute;
+            top : 500px;
+            left : 150px;
+            width: 250px;
+        }
+        
+      .container4 h1{
+        font-size : 25px;
+        right: -100px;
+    }
+        .container4 h5{
+            font-size : 12px;
+        }
+        .column8 {
+            left : 200px;
+            width : 200px;
+            padding-left: 140px;
+        }
+        .column7 {
+            width : 250px;
+            padding-left: 90px;
+        }
+        #coon{
+            position : absolute;
+            left : 0px;
+            top : 2700px;
+        }   
+        #cons7{
+            
+            position : absolute;
+            left : 150px;
+            top : 2800px;
+        }
+    }
+
+  
